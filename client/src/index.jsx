@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App,{testApiFetch} from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-    <testApiFetch/>
-  </React.StrictMode>,
+   <div><App />
+      </div>,
   document.getElementById('root')
 );
 
